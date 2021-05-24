@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<title>Bulma Builder | Create Bulma templates in minutes</title>
+	<meta name="description"
+		content="Save time with the online editor for Bulma CSS that has a simple, intuitive drag &amp; drop interface and 300+ ready-made UI components.">
+
+	<meta name="theme-color" content="#00d1b2">
+	<meta name="msvalidate.01" content="E25A826C1233B0BD38C5A90478DA0344">
+
+	<meta property="og:type" content="product" />
+	<meta property="og:title" content="Bulma Builder" />
+	<meta property="og:description" content="Create beautiful Bulma templates in minutes.">
+	<meta property="og:image" content="https://bulma.dev/static/img/1200-bulma.png?v=edJ">
+	<meta property="og:url" content="https://bulma.dev/" />
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Bulma Builder">
+	<meta name="twitter:description" content="Create beautiful Bulma templates in minutes.">
+	<meta name="twitter:image:src" content="https://bulma.dev/static/img/1200-bulma.png?v=edJ">
+
+	<link rel="prefetch" href="https://shuffle.dev">
+	<link rel="icon" href="/favicon-bulma.ico">
+
+	<link rel="stylesheet" href="/static/build/css/bulma.faf59d5c.css">
+	<link rel="stylesheet" href="/vendor/icons/css/fontello.css?v=h7b">
+	<link rel="stylesheet" href="css/main.css">
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125842727-4"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'UA-125842727-4');
+	</script>
+
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function (f, b, e, v, n, t, s) {
+			if (f.fbq) return; n = f.fbq = function () {
+				n.callMethod ?
+				n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+			n.queue = []; t = b.createElement(e); t.async = !0;
+			t.src = v; s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '1767441396695286');
+		fbq('track', 'PageView');
+	</script>
+	<!-- End Facebook Pixel Code -->
+</head>
+
+<body class="landing">
+	<div class="shuffle-banner">
+		<div class="container">
+			<div class="shuffle-banner__content">
+				<div class="shuffle-banner__copy">
+					<a href="/"><img src="/static/img/shuffle-frameworks/merge/bulma-builder.png" alt=""
+							style="vertical-align:middle"></a>
+					is now part of <a href="https://shuffle.dev" class="link muted-link">Shuffle&trade;</a>.
+					You can use the editor on this domain, but we encourage you to <a href="https://shuffle.dev" class="link">try
+						Shuffle &rarr;</a>.
+					Shuffle&trade;&nbsp;includes templates for Bulma, Bootstrap, Material-UI, and&nbsp;Tailwind CSS.
+				</div>
+				<div class="shuffle-banner__action">
+					<a href="https://shuffle.dev" class="switch-button">Switch to Shuffle &rarr;</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="position: relative;">
+
+		<div class="paypal">
+			<div class="paypal__content">
+				<div class="paypal__spinner"></div>
+				<h4 class="title is-size-4">Redirecting to PayPal</h4>
+			</div>
+		</div>
+		<nav class="navbar has-shadow" style="position: -webkit-sticky; position: sticky; top: 0;" role="navigation"
+			aria-label="main navigation">
+			<div class="container">
+				<div class="navbar-brand">
+					<a class="navbar-item" href="/">
+						<img src="/static/img/shuffle-frameworks/shuffle-for-bulma-color.svg" style="height:38px;"
+							alt="Shuffle for Bulma CSS">
+					</a>
+
+					<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+						data-target="bulma-navbar-menu">
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+					</a>
+				</div>
+
+				<div id="bulma-navbar-menu" class="navbar-menu">
+					<div class="navbar-start">
+						<a class="navbar-item" href="/#how-it-works" data-section="how-it-works">How it works</a>
+						<a class="navbar-item" href="/#features" data-section="features">Features</a>
+						<a class="navbar-item" href="/#purchase" data-section="purchase">Purchase</a>
+					</div>
+
+					<div class="navbar-end">
+						<div class="navbar-item">
+							<div class="buttons">
+								<a href="https://shuffle.dev/login?redirect=bulma-builder" class="button is-text">Log in</a>
+								<a href="https://shuffle.dev/editor?project=dde8d8a600aad3a9173e0ea3be4d6153a18e3e9d&editor=bulma"
+									class="button is-primary">
+									<strong>Try Demo</strong>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<section class="hero is-primary is-bold">
+			<div class="hero-body splash">
+				<div class="container">
+					<div class="columns is-vcentered">
+						<div class="column">
+							<h1 class="title is-spaced is-size-2-desktop is-size-1-fullhd">Create Bulma templates in&nbsp;minutes.
+							</h1>
+
+							<h2 class="subtitle">
+								An online editor for Bulma CSS with a&nbsp;simple, intuitive drag &amp;&nbsp;drop interface&nbsp;and
+								300+ ready-made UI&nbsp;components.
+							</h2>
+
+							<div class="buttons">
+								<a class="control button is-primary is-inverted is-medium"
+									href="https://shuffle.dev/editor?project=8dd72ecbbde409dece5976535dcd80f3654d0ae0">Try Demo</a>
+								<a class="control button is-primary is-inverted is-outlined is-medium" href="#purchase"
+									data-section="purchase">Sign up</a>
+							</div>
+						</div>
+
+						<div class="column">
+							<a href="/editor?project=5f61bab18acd3990db254b318883a5a89ab835d6">
+								<div class="box-shadow is-hidden-tablet">
+									<img src="/bulma/static/img/manual/interface/builder.png" alt="Bulma Builder interface" />
+								</div>
+								<div class="is-hidden-mobile editor-carousel box-shadow" id="editor-carousel">
+									<img class="editor-carousel__overlay"
+										src="/bulma/static/img/manual/interface/builder-animation.png?v=1" alt="Bulma Builder interface" />
+									<div class="editor-carousel__slider">
+										<div class="editor-carousel__container">
+											<div class="editor-carousel__slide">
+												<img src="/bulma/static/img/manual/interface/slide1.png?v=1" alt="Bulma header component" />
+											</div>
+											<div class="editor-carousel__slide">
+												<img src="/bulma/static/img/manual/interface/slide2.png?v=1" alt="Bulma header component" />
+											</div>
+											<div class="editor-carousel__slide">
+												<img src="/bulma/static/img/manual/interface/slide3.png?v=1" alt="Bulma header component" />
+											</div>
+											<div class="editor-carousel__slide">
+												<img src="/bulma/static/img/manual/interface/slide4.png?v=1" alt="Bulma header component" />
+											</div>
+										</div>
+									</div>
+									<div class="editor-carousel__click">
+										<div class="editor-carousel__click--circle"></div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section" id="how-it-works">
+			<div class="container has-text-centered">
+				<div class="section-header">
+					<div class="ph-featured">
+						<a href="https://www.producthunt.com/posts/bulma-builder?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-bulma-builder"
+							target="_blank" rel="nofollow noopener"><img
+								src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=160607&theme=light"
+								alt="Bulma Builder - First such advanced theme builder for Bulma CSS framework | Product Hunt Embed"
+								style="width: 250px; height: 54px;" width="250" height="54" /></a>
+						<a href="https://www.producthunt.com/posts/bulma-builder?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-bulma-builder"
+							target="_blank" rel="nofollow noopener"><img
+								src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=160607&theme=light&period=daily"
+								alt="Bulma Builder - First such advanced theme builder for Bulma CSS framework | Product Hunt Embed"
+								style="width: 250px; height: 54px;" width="250" height="54" /></a>
+					</div>
+
+					<h2 class="title">The first truly advanced editor for&nbsp;Bulma.</h2>
+					<h3 class="subtitle">Drag &amp; drop. Customize. Improve in&nbsp;your favorite&nbsp;IDE.</h3>
+				</div>
+
+				<div class="columns step is-vcentered">
+					<div class="column is-6">
+						<span class="is-size-1">01</span>
+						<h3 class="title is-size-4-mobile">Choose the right UI components</h3>
+						<p>Use ready-made Bulma components from the&nbsp;multipurpose library grouped
+							into the most frequently used categories<span class="is-hidden-mobile">:</span><span
+								class="is-hidden-tablet">.</span>
+							<span class="select is-hidden-mobile is-small">
+								<select id="components-carousel-list">
+									<option value="navigations">navigations</option>
+									<option value="headers">headers</option>
+									<option value="blog">blog</option>
+									<option value="features">features</option>
+									<option value="how-it-works">how it works</option>
+									<option value="testimonials">testimonials</option>
+									<option value="portfolio">portfolio</option>
+									<option value="team" selected>team</option>
+									<option value="pricing">pricing</option>
+									<option value="faqs">FAQs</option>
+									<option value="contacts">contacts</option>
+									<option value="call-to-action">call to action</option>
+									<option value="sign-in">sign in</option>
+									<option value="http-codes">HTTP Codes</option>
+									<option value="footers">footers</option>
+								</select>
+							</span>
+						</p>
+					</div>
+
+					<div class="column is-6">
+						<div class="how-it-works-preview box-shadow has-white-bg is-hidden-tablet">
+							<img src="/bulma/static/img/manual/interface/components.png" alt="Components menu interface">
+						</div>
+
+						<div class="is-hidden-mobile" id="components-carousel">
+							<div id="components-carousel__inner"></div>
+
+							<a id="components-carousel__prev" href="#components-carousel" role="button" data-slide="prev">
+								<span class="components-carousel__prev--icon" aria-hidden="true"></span>
+								<span class="only-screen-readers">Previous</span>
+							</a>
+							<a id="components-carousel__next" href="#components-carousel" role="button" data-slide="next">
+								<span class="components-carousel__next--icon" aria-hidden="true"></span>
+								<span class="only-screen-readers">Next</span>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="columns step is-vcentered">
+					<div class="column is-6">
+						<span class="is-size-1">02</span>
+						<h3 class="title is-size-4-mobile">Customize Bulma styles</h3>
+						<p>We have 460 Bulma variables in&nbsp;thematically connected categories to allow you
+							to&nbsp;work&nbsp;effectively.</p>
+					</div>
+					<div class="column is-6">
+						<div class="how-it-works-preview box-shadow has-white-bg">
+							<img src="/bulma/static/img/manual/interface/bulma-styles.png" alt="Bulma styles panel" />
+						</div>
+					</div>
+				</div>
+
+				<div class="columns step is-vcentered">
+					<div class="column is-6">
+						<span class="is-size-1">03</span>
+						<h3 class="title is-size-4-mobile">Download source code</h3>
+						<p>Bulma Builder provides sources for the tools developers know&nbsp;and&nbsp;love. When you select the
+							appropriate components and Bulma settings, you can download source files in order to&nbsp;e.g.&nbsp;start
+							combining front-end with&nbsp;back-end.</p>
+					</div>
+					<div class="column is-6">
+						<div class="columns technology-stack is-mobile is-multiline">
+							<div class="column">
+								<a href="https://bulma.io" target="_blank" rel="noopener nofollow">
+									<img src="/static/img/logos/bulma-logo.png" alt="Bulma" style="max-height: 70px;">
+								</a>
+								<h4 class="subtitle">Bulma 0.9.0</h4>
+								<a class="github-button" href="https://github.com/jgthms/bulma" rel="noopener nofollow"
+									data-icon="octicon-star" data-show-count="true" aria-label="Star jgthms/bulma on GitHub">Star</a>
+							</div>
+							<div class="column">
+								<a href="https://sass-lang.com" target="_blank" rel="noopener nofollow">
+									<img src="/static/img/logos/sass.svg" alt="Sass" style="max-height: 70px;">
+								</a>
+								<h4 class="subtitle">Sass</h4>
+								<a class="github-button" href="https://github.com/sass/sass" rel="noopener nofollow"
+									data-icon="octicon-star" data-show-count="true" aria-label="Star sass/sass on GitHub">Star</a>
+							</div>
+							<div class="column">
+								<a href="https://pugjs.org" target="_blank" rel="noopener nofollow">
+									<img src="/static/img/logos/pug.svg" alt="Pug" style="max-height: 70px;">
+								</a>
+								<h4 class="subtitle">Pug</h4>
+								<a class="github-button" href="https://github.com/pugjs/pug" rel="noopener nofollow"
+									data-icon="octicon-star" data-show-count="true" aria-label="Star pugjs/pug on GitHub">Star</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="try-demo">
+					<a class="button is-primary is-medium"
+						href="https://shuffle.dev/editor?project=d6d35f34eccf1e67b1866b6c7c474703d9292ac1">Try Demo</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="section has-background-white-bis" id="proven-technology">
+			<div class="container has-text-centered">
+				<div class="section-header">
+					<h2 class="title">This isn't our first editor for popular CSS&nbsp;Framework***.</h2>
+					<h3 class="subtitle">We've based the builder interface on a proven technology used&nbsp;by&nbsp;<a
+							href="https://bootstrapshuffle.com" target="_blank" rel="noopener">Bootstrap&nbsp;Shuffle</a>.</h3>
+				</div>
+				<div class="columns is-centered social-proof">
+					<div class="column is-7">
+						<div class="columns">
+							<div class="column">
+								<a href="https://www.producthunt.com/posts/bootstrap-shuffle?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-bootstrap-shuffle"
+									target="_blank" rel="noopener nofollow">
+									<img
+										src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=142281&theme=light&period=daily"
+										alt="Bootstrap Shuffle - Bootstrap builder for busy developers | Product Hunt Embed"
+										style="height: 44px;" height="44" />
+								</a>
+								<p><a href="https://www.producthunt.com/posts/bootstrap-shuffle" target="_blank"
+										class="has-text-grey outbound-link" data-link="product-hunt" rel="noopener nofollow">Bootstrap
+										Shuffle on Product Hunt &raquo;</a></p>
+							</div>
+							<div class="column">
+								<a href="https://news.ycombinator.com/item?id=18821854" target="_blank" class="outbound-link"
+									data-link="hacker-news" rel="noopener nofollow">
+									<img src="/static/img/logos/testimonials/hacker-news.png?v=2" alt="" style="height: 44px;"
+										height="44">
+								</a>
+								<p><a href="https://news.ycombinator.com/item?id=18821854" target="_blank"
+										class="has-text-grey outbound-link" data-link="hacker-news" rel="noopener nofollow">Bootstrap
+										Shuffle on Hacker News &raquo;</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="columns is-centered">
+					<div class="column is-8-tablet is-7-desktop is-6-fullhd">
+						<p class="additional-offer is-size-7"><sup>***</sup> That's why all Bulma Builder users automatically get
+							access to <a href="https://bootstrapshuffle.com" target="_blank" rel="noopener">Bootstrap Shuffle</a> for
+							FREE.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section section-video">
+			<div class="container has-text-centered">
+				<div class="section-header">
+					<h2 class="title">Video: Create a new Bulma template in minutes.</h2>
+					<h3 class="subtitle is-size-5-desktop">Watch Bulma Builder in action.</h3>
+				</div>
+
+				<div class="section-header columns is-centered">
+					<div class="column is-8">
+						<div class="embed-responsive embed-responsive-16by9 box-shadow has-white-bg">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Q0lg7Ktdlhw?rel=0&showinfo=0"
+								frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<a class="button is-primary is-medium"
+						href="https://shuffle.dev/editor?project=273d4f5b71b97e147eabfd27805946050dc3b91f">Try Demo</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="section has-background-primary has-text-white" id="features">
+			<div class="container">
+				<div class="section-header has-text-centered">
+					<h2 class="title is-size-2-desktop has-text-white">Time is precious.</h2>
+					<h3 class="subtitle has-text-white">Working on web projects without frustration is&nbsp;priceless.</h3>
+				</div>
+
+				<div class="columns is-centered">
+					<div class="column is-9">
+						<div class="columns">
+							<div class="column is-6">
+								<h4 class="title is-4 has-text-white"><i class="icon-lightbulb"></i> Easy to use</h4>
+								<p>We know how valuable developers' time is. This is why we&nbsp;worked hard on&nbsp;the development
+									of&nbsp;a&nbsp;tool that would be&nbsp;easy to use and which you could make use of without the need
+									for any training.</p>
+							</div>
+							<div class="column is-6">
+								<h4 class="title is-4 has-text-white"><i class="icon-squares"></i> Components library</h4>
+								<p>Build templates from hundreds of&nbsp;components grouped into 20 most frequently used categories
+									including navigations, headers and more. Choose the right components and focus
+									on&nbsp;the&nbsp;details.</p>
+							</div>
+						</div>
+						<div class="columns">
+							<div class="column is-6">
+								<h4 class="title is-4 has-text-white"><i class="icon-globe"></i> Online Sass compilation</h4>
+								<p>Bulma 0.9.0 provides a lot of&nbsp;configuration options. Our&nbsp;customizer panel displays these
+									options in thematically connected categories and it will allow you to&nbsp;use them effectively.</p>
+							</div>
+							<div class="column is-6">
+								<h4 class="title is-4 has-text-white"><i class="icon-brush"></i> Convenient pickers</h4>
+								<p>All types of settings include an&nbsp;interface for&nbsp;a&nbsp;quicker implementation of values
+									(color picker, Google Fonts autosuggest, shadow builder, etc.). All for your convenience!</p>
+							</div>
+						</div>
+						<div class="columns">
+							<div class="column is-6">
+								<h4 class="title is-4 has-text-white"><i class="icon-heartbeat"></i> Live edit</h4>
+								<p>When changing the settings in&nbsp;customizer panel, the SCSS code is&nbsp;compiled in real time, and
+									you can follow the&nbsp;changes live.</p>
+							</div>
+							<div class="column is-6">
+								<h4 class="title is-4 has-text-white"><i class="icon-link-ext"></i> Shareable preview</h4>
+								<p>You can share the prepared project with other team members to&nbsp;review, or you can use a link
+									to&nbsp;check the&nbsp;project on mobile devices.</p>
+							</div>
+						</div>
+						<div class="columns">
+							<div class="column is-6">
+								<h4 class="title is-4 has-text-white"><i class="icon-file-code"></i> Exportable sources</h4>
+								<p>Bulma Builder is a tool for developers. Our goal is&nbsp;to&nbsp;speed up&nbsp;your work. You can
+									download source files in&nbsp;order to e.g. start combining front-end with back-end.</p>
+							</div>
+							<div class="column is-6">
+								<h4 class="title is-4 has-text-white"><i class="icon-code"></i> Pure Bulma</h4>
+								<p>We do not use any external dependencies. Bulma CSS framework doesn't provide any JavaScript, so it
+									integrates in any JS environment (e.g. Vue, React, Angular).</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="try-demo">
+				<a class="button is-primary is-inverted is-medium"
+					href="https://shuffle.dev/editor?project=c52793948889ce8aea2e7b14d0a7883f3a5c8c28">Try Demo</a>
+			</div>
+		</section>
+
+
+		<section class="section" id="new-styles">
+			<div class="container has-text-centered">
+				<div class="section-header">
+					<div class="columns is-centered">
+						<div class="column is-10-tablet is-8-desktop is-7-fullhd">
+							<div class="block">
+								<span class="has-text-weight-semibold has-text-primary is-size-5-desktop">#1 Premium Bundle</span>
+							</div>
+							<h2 class="title is-spaced">Too often developers don't have time to implement their&nbsp;designs
+								perfectly.</h2>
+							<h3 class="subtitle is-size-6-tablet is-size-6-mobile">That's why we have built an editor that will help
+								you move faster from building a layout to the refining stage so that you can have time to work on the
+								details.</h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="columns is-centered">
+					<div class="column is-12-tablet-only is-12-desktop is-12-fullhd">
+						<div class="columns is-variable is-multiline builders">
+							<div class="column is-6-tablet is-3-desktop">
+								<a href="https://bootstrapshuffle.com" target="_blank" rel="noopener">
+									<img src="static/img/logos/bootstrap-shuffle-logo_100px.png" alt="Bootstrap Shuffle"
+										style="height:50px;">
+								</a>
+								<div class="ph">
+									<a href="https://bootstrapshuffle.com" target="_blank" rel="noopener">
+										<img
+											src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=142281&theme=light"
+											alt="Bootstrap Shuffle - Bootstrap builder for busy developers | Product Hunt Embed"
+											style="width: 202px; height: 44px;" width="202" height="44">
+									</a>
+								</div>
+							</div>
+							<div class="column is-6-tablet is-3-desktop border">
+								<a href="https://tailwind.build" target="_blank" rel="noopener">
+									<img src="static/img/logos/tailwind-builder-logo_100px.png" alt="Tailwind Builder"
+										style="height:50px;">
+								</a>
+								<div class="ph">
+									<a href="https://tailwind.build" target="_blank" rel="noopener">
+										<img
+											src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=173245&theme=light"
+											alt="Tailwind Builder - Tailwind CSS editor for busy developers | Product Hunt Embed"
+											style="width: 202px; height: 44px;" width="202" height="44">
+									</a>
+								</div>
+							</div>
+							<div class="column is-6-tablet is-3-desktop border">
+								<img src="static/img/logos/bulma-builder-logo_100px.png" alt="Bulma Builder" style="height:50px;">
+								<div class="ph">
+									<img
+										src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=160607&amp;theme=light"
+										alt="Bulma Builder - First such advanced theme builder for Bulma CSS framework | Product Hunt Embed"
+										style="width: 202px; height: 44px;" width="202" height="44">
+								</div>
+							</div>
+							<div class="column is-6-tablet is-3-desktop border">
+								<a href="https://mui.dev" target="_blank" rel="noopener">
+									<img src="static/img/logos/material-ui-builder/material-ui-builder_logo_100px.png"
+										alt="Material-UI Builder" style="height:50px;" class="mx-auto mb-8">
+								</a>
+								<div class="ph">
+									<a href="https://mui.dev" target="_blank" rel="noopener">
+										<img
+											src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=271270&theme=light"
+											alt="Material-UI Builder - React editor for busy developers | Product Hunt"
+											style="width: 202px; height: 44px;" width="202" height="44" class="mx-auto" />
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="columns is-centered">
+					<div class="column is-8-tablet is-7-desktop is-6-fullhd">
+						<a href="/#purchase" class="subtitle is-size-5-tablet is-size-6-mobile has-text-grey"
+							data-section="purchase">
+							Get the whole bundle (Shuffle&trade;) &nbsp;👇
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="section purchase has-background-white-bis" id="purchase">
+			<div class="container">
+				<div class="columns is-centered">
+					<div class="column is-8 has-text-centered">
+						<div class="field has-addons membership-version" id="membership-version" data-editor="bulma">
+							<p class="control">
+								<label class="button is-primary active">
+									<input type="radio" name="membership-version" id="membership-developer" autocomplete="off"
+										value="developer" checked>
+									Developer
+								</label>
+							</p>
+							<p class="control">
+								<label class="button">
+									<input type="radio" name="membership-version" id="membership-team" value="team" autocomplete="off">
+									Team
+								</label>
+							</p>
+						</div>
+						<h2 class="title is-size-2-desktop">The easiest way to create beautiful Bulma&nbsp;templates</h2>
+					</div>
+				</div>
+
+				<form action="/purchase" method="post" id="account-form" autocomplete="off">
+					<div class="field is-grouped is-grouped-centered" id="billing-type">
+						<div class="control">
+							<span class="form-check">
+								<label class="radio is-size-5" for="billing-lifetime">
+									&nbsp;&nbsp;<input type="radio" name="billing" id="billing-lifetime" value="lifetime" data-price="149"
+										data-price-team="299" checked>
+									&nbsp;Lifetime license <span
+										class="billing-price tag is-warning is-size-5 has-text-weight-bold">$149</span>
+								</label>
+							</span>
+							&nbsp;<br class="is-hidden-desktop">&nbsp;
+							<span class="form-check">
+								<label class="radio is-size-5" for="billing-monthly">
+									<input type="radio" name="billing" id="billing-monthly" value="monthly" data-price="24"
+										data-price-team="59">
+									&nbsp;Monthly billing <small class="has-text-success is-hidden-mobile">(cancel anytime!)</small> <span
+										class="billing-price tag is-warning is-size-5 has-text-weight-bold">$24</span>
+								</label>
+							</span>
+						</div>
+					</div>
+
+					<div class="additional-offer has-text-centered is-size-7">
+						<p id="team-version" class="is-hidden has-text-primary" style="margin-bottom: 10px">Team version allows you
+							to create <strong class="has-text-primary">up to five</strong> accounts.</p>
+						<p class="selected-offer">The selected plan includes <span
+								class="bonus-lifetime has-text-weight-semibold">lifetime</span><span
+								class="bonus-monthly has-text-weight-semibold is-hidden">monthly</span> access to&nbsp;<a
+								href="https://shuffle.dev" target="_blank">Shuffle</a>&trade;.</p>
+						<div class="is-hidden-mobile">
+							<p class="bonus-lifetime">A lifetime license is best for those who create several projects per year.</p>
+							<p class="bonus-monthly is-hidden">A monthly subscription is best for those who are currently planning
+								only one project.</p>
+						</div>
+					</div>
+
+					<div class="columns is-centered">
+						<div class="column is-10-tablet is-9-desktop">
+							<div class="box">
+								<div class="card-content">
+									<div class="columns is-desktop is-vcentered">
+										<div class="column is-6-desktop">
+											<h3 class="title has-text-centered is-size-4 copy-monthly is-hidden">Buy a&nbsp;Subscription</h3>
+											<h3 class="title has-text-centered is-size-4 copy-lifetime">Buy a Lifetime License</h3>
+
+
+
+											<div class="field">
+												<label class="label" for="account-email">Your e-mail</label>
+												<div class="control">
+													<input class="input" type="email" name="email" id="account-email" placeholder="E-mail"
+														value="" autocomplete="new-account">
+												</div>
+											</div>
+
+											<div class="field">
+												<label class="label" for="account-password">Choose a password</label>
+												<div class="control">
+													<input class="input" type="password" name="password" id="account-password"
+														placeholder="Password" autocomplete="new-password">
+												</div>
+											</div>
+
+											<div class="field">
+												<label class="label">Choose a payment method</label>
+												<div class="purchase__methods columns">
+													<div class="column">
+														<a href="#" data-method="stripe" class="active is-fullwidth">
+															<img src="/static/img/logos/cards.png" height="24" alt="Pay with card" />
+															<br>
+															<small>Pay with card</small>
+														</a>
+													</div>
+													<div class="column">
+														<a href="#" data-method="paypal" class=" is-fullwidth">
+															<img src="/static/img/logos/paypal.png" height="24" alt="Pay with PayPal" />
+															<br>
+															<small>Pay with PayPal&trade;</small>
+														</a>
+													</div>
+												</div>
+											</div>
+
+											<div class="field">
+												<button class="button is-primary is-medium is-fullwidth buy-license copy-monthly is-hidden"
+													type="submit"><img src="/static/img/loading.gif" alt="Loading..."
+														class="is-pulled-left is-hidden" width="16" height="16" style="margin-right: 12px"> Buy a
+													Subscription&nbsp;<span data-price-final="24" data-price-team-final="59">$24</span></button>
+												<button class="button is-primary is-medium is-fullwidth buy-license copy-lifetime"
+													type="submit"><img src="/static/img/loading.gif" alt="Loading..."
+														class="is-pulled-left is-hidden" width="16" height="16" style="margin-right: 12px"> Buy a
+													License&nbsp;<span data-price-final="149" data-price-team-final="299">$149</button>
+											</div>
+
+											<div class="field">
+												<div class="control has-text-centered">
+													<label class="checkbox purchase__terms" for="terms-accept">
+														<input type="checkbox" id="terms-accept" name="terms" value="1">
+														I agree to the <a href="/bulma/static/files/terms-of-use.pdf" target="_blank"
+															rel="noopener">terms of use</a> and <a href="/bulma/static/files/privacy-policy.pdf"
+															target="_blank" rel="noopener">privacy policy</a>.
+													</label>
+												</div>
+												<p class="help has-text-centered is-danger is-hidden">You must agree before submitting.</p>
+											</div>
+										</div>
+										<div class="column is-6-desktop">
+											<div class="pricing-features mt-5">
+												<div class="is-flex"><i class="icon-ok"></i>
+													<h5>Two themes and 300+ ready-made UI&nbsp;components.</h5>
+												</div>
+												<div class="is-flex"><i class="icon-ok"></i>
+													<h5>Works with Bulma 0.9+ <small>(Released on June 8, 2020)</small>.</h5>
+												</div>
+												<div class="is-flex"><i class="icon-ok"></i>
+													<h5>Free updates with new UI kits and styles.</h5>
+												</div>
+												<div class="is-flex"><i class="icon-ok"></i>
+													<h5>Shuffle extension for Visual Studio Code with all UI components.</h5>
+												</div>
+												<div class="is-flex"><i class="icon-ok"></i>
+													<h5>Access to <a href="https://shuffle.dev" target="_blank"
+															class="underline">Shuffle</a>&trade; without additional costs. Shuffle is an online editor
+														for Bulma, Bootstrap, Material&#8209;UI, and&nbsp;Tailwind&nbsp;CSS.</h5>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<section class="section has-background-primary has-text-white" id="blog">
+			<div class="container has-text-centered">
+
+				<div class="section-header">
+					<h2 class="title has-text-white">What's new?</h2>
+					<h3 class="subtitle is-size-5-desktop has-text-white">* We link to relevant posts from the <a
+							href="https://shuffle.dev/blog" class="has-text-white" style="text-decoration: underline;" target="_blank"
+							rel="noopener">Shuffle</a> blog.</h3>
+				</div>
+
+				<div class="columns is-centered">
+					<div class="column is-8-desktop">
+						<div class="columns is-variable is-6">
+							<div class="column post">
+								<a href="https://shuffle.dev/bulma" target="_blank" rel="noopener">
+									<img class="box-shadow" src="https://shuffle.dev/vendor/shuffle/img/brand/open-graph.png" alt="">
+								</a>
+								<div>
+									<h5 class="title is-5">
+										<a href="https://shuffle.dev/bulma" class="has-text-white" target="_blank" rel="noopener">We
+											combined four editors into Shuffle! Try&nbsp;a&nbsp;new visual editor! <small><sup
+													class="icon-link-ext"></sup></small></a>
+									</h5>
+								</div>
+							</div>
+							<div class="column post">
+								<a href="https://shuffle.dev/blog/2020/11/visual-studio-code-extension-for-shuffle-ui-components/"
+									target="_blank" rel="noopener">
+									<img class="box-shadow" src="https://shuffle.dev/blog/wp-content/uploads/2020/11/post-vsc.png?v=1"
+										alt="Visual Studio Code extension for Shuffle UI components">
+								</a>
+								<div>
+									<h5 class="title is-5">
+										<a href="https://shuffle.dev/blog/2020/11/visual-studio-code-extension-for-shuffle-ui-components/"
+											class="has-text-white" target="_blank" rel="noopener">Visual Studio Code extension for Shuffle UI
+											components. <small><sup class="icon-link-ext"></sup></small></a>
+									</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="has-background-light">
+			<div class="shuffle-banner">
+				<div class="container">
+					<div class="shuffle-banner__content">
+						<div class="shuffle-banner__copy">
+							<a href="/"><img src="/static/img/shuffle-frameworks/merge/bulma-builder.png" alt=""
+									style="vertical-align:middle"></a>
+							is now part of <a href="https://shuffle.dev" class="link muted-link">Shuffle&trade;</a>.
+							You can use the editor on this domain, but we encourage you to <a href="https://shuffle.dev"
+								class="link">try Shuffle &rarr;</a>.
+							Shuffle&trade;&nbsp;includes templates for Bulma, Bootstrap, Material-UI, and&nbsp;Tailwind CSS.
+						</div>
+						<div class="shuffle-banner__action">
+							<a href="https://shuffle.dev" class="switch-button">Switch to Shuffle &rarr;</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="content has-text-centered">
+				<a href="/">
+					<img src="/static/img/logos/bulma-builder-logo_76px.png?v=1" alt="Bulma Builder" style="height:38px;">
+				</a>
+
+				<div class="footer-links">
+					<a href="/bulma/static/files/terms-of-use.pdf" class="button is-text" target="_blank" rel="noopener">Terms</a>
+					<a href="/bulma/static/files/privacy-policy.pdf" class="button is-text" target="_blank" rel="noopener">Privacy
+						Policy</a>
+					<a href="/licenses" class="button is-text">Licenses</a>
+					<a href="/classes" class="button is-text">Bulma CSS</a>
+					<a href="/cdn-cgi/l/email-protection#3c4f494c4c534e487c4f54495a5a50591258594a" class="button is-text"
+						target="_blank">Support</a>
+				</div>
+
+				<p class="is-size-6">
+					&copy; 2021 <a href="https://shuffle.dev" title="An online editor for busy developers" target="_blank"
+						class="has-text-dark">Shuffle</a> <small>&nbsp;|&nbsp;</small> All rights reserved.
+				</p>
+				<p><a href="https://shuffle.dev/bulma">Switch to the Bulma Editor by Shuffle<sup> <i
+								class="icon-link-ext"></i></sup></a></p>
+			</div>
+		</footer>
+	</div>
+
+	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+	<script src="/vendor/bundle.js?v1"></script>
+
+	<script>var SHOW_NEWSLETTER = false;</script>
+	<script src="/static/build/runtime.f0937a63.js" defer></script>
+	<script src="/static/build/js/landing.45a16e98.js" defer></script>
+	<script src="/components/js/1d36_components-previews.js?v=cak2"></script>
+	<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+	<script src="https://js.stripe.com/v3/"></script>
+	<script>
+		var stripe_publishable_key = 'pk_live_6Hm65VjiTzGXnnoyU9jddNmf';
+	</script>
+
+</body>
+
+</html>

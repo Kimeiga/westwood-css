@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+$primary-color: #ff8383;
+$secondary-color-1: #f38f70;
+$secondary-color-2: #ff1a6c;
+$secondary-color-3: #45385a;
+$tertiary-color: #182862;
+$gradient-color-1: #ff6b6b;
+$gradient-color-2: #ff9ce3;
+
+$primary: $primary-color;
+$link: $secondary-color-1;
+
+@import "core.scss";

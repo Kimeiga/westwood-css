@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+// Set your brand colors
+$primary-color: #ffba44;
+$secondary-color-1: #ffe81a;
+$secondary-color-2: #ffda1a;
+$secondary-color-3: #ff8c4c;
+$tertiary-color: #f44d8a;
+$gradient-color-1: #f5b100;
+$gradient-color-2: #ffe040;
+
+$primary: $primary-color;
+$link: $secondary-color-1;
+
+@import "core.scss";
