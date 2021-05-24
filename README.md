@@ -6,4 +6,6 @@ just add:
 ```
 to your `<head>`
 
+Replace the "acm" with "studio", "teachla", "w", "design", etc to get the colors for your specific committee!
+
 Westwood CSS is an ACM styling of Bulma
